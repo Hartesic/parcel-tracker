@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "ParcelTracker",
+	"description": "Cette extension permet de se rendre sur la page de suivi d'un colis en un clic.",
+	"version": "0.6",
+
+	"browser_action": {
+		"default_icon": "icon-parcel.png",
+		"default_popup": "popup.html"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["http://wwwapps.ups.com/WebTracking/track?trackNums=*"],
+			"js": ["lib/jquery-2.1.1.min.js", "manual_trackers/ups.js"]
+		},
+		{
+			"matches": ["http://www.chronopost.fr/transport-express/livraison-colis/cache/bypass/pid/701?trackid=*"],
+			"js": ["lib/jquery-2.1.1.min.js", "manual_trackers/chronopost.js"]
+		}
+	]
+}
