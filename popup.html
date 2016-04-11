@@ -15,8 +15,8 @@
 			<select id="carrier_id" class="form-control" ng-model="selected_carrier" ng-options="id as carrier.label for (id, carrier) in carriers" ng-required="true">
 				<option value="">-- Transporteur --</option>
 			</select>
-			<input type="text" class="form-control" placeholder="Tracking number" ng-model="parcel_id" ng-required="true" autofocus>
-			<input type="submit" class="btn btn-primary btn-block" value="Track" ng-disabled="emptyForm()" ng-click="track()">
+			<input type="text" class="form-control" placeholder="Numéro de colis" ng-model="parcel_id" ng-required="true" autofocus>
+			<input type="submit" class="btn btn-primary btn-block" value="Valider" ng-disabled="emptyForm()" ng-click="track()">
 		</form>
 	</div>
 </body>
