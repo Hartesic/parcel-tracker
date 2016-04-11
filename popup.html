@@ -12,7 +12,7 @@
 <body style="width:200px;">
 	<div class="col-md-12" ng-controller="parcelTrackerController">
 		<form id="tracking_form">
-			<select id="carrier_id" class="form-control" ng-model="selected_carrier" ng-options="id as carrier.name for (id, carrier) in carriers" ng-required="true">
+			<select id="carrier_id" class="form-control" ng-model="selected_carrier" ng-options="id as carrier.label for (id, carrier) in carriers" ng-required="true">
 				<option value="">-- Transporteur --</option>
 			</select>
 			<input type="text" class="form-control" placeholder="Tracking number" ng-model="parcel_id" ng-required="true" autofocus>

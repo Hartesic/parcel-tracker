@@ -1,30 +1,30 @@
 {
 	"colissimo": {
-		"name": "Colissimo",
-		"url": "http://www.colissimo.fr/portail_colissimo/suivre.do?parcelnumber="
+		"label": "Colissimo",
+		"url": "https://www.colissimo.fr/portail_colissimo/suivre.do?parcelnumber="
 	},
 	"chronopost": {
-		"name": "Chronopost",
-		"url": "http://www.chronopost.fr/transport-express/livraison-colis/cache/bypass/pid/701?trackid="
+		"label": "Chronopost",
+		"url": "https://www.chronopost.fr/fr/chrono_suivi_search#"
 	},
-	"coliprive": {
-		"name": "Coli Privé",
-		"url": "https://www.colisprive.com/moncolis/pages/detailColis.aspx?numColis="
+	"colisprive": {
+		"label": "Colis Privé",
+		"url": "https://www.colisprive.fr/?trackid="
 	},
 	"fedex": {
-		"name": "FedEx",
-		"url": "https://www.fedex.com/fedextrack/WTRK/index.html?action=track&trackingnumber="
+		"label": "FedEx",
+		"url": "https://www.fedex.com/apps/fedextrack/?tracknumbers="
 	},
 	"dhl": {
-		"name": "DHL",
+		"label": "DHL",
 		"url": "http://www.dhl.com/en/express/tracking.html?AWB="
 	},
 	"ups": {
-		"name": "UPS",
-		"url": "http://wwwapps.ups.com/WebTracking/track?trackNums="
+		"label": "UPS",
+		"url": "https://wwwapps.ups.com/WebTracking/track?trackNums="
 	},
 	"gls": {
-		"name": "GLS",
+		"label": "GLS",
 		"url": "https://gls-group.eu/FR/fr/suivi-colis?match="
 	}
 }
