@@ -3,7 +3,7 @@
 
 	"name": "ParcelTracker",
 	"description": "Cette extension permet de se rendre sur la page de suivi d'un colis en un clic.",
-	"version": "0.7",
+	"version": "0.7.1",
 
 	"browser_action": {
 		"default_icon": "icon-parcel.png",
