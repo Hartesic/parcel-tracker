@@ -5,7 +5,7 @@
 	},
 	"chronopost": {
 		"label": "Chronopost",
-		"url": "https://www.chronopost.fr/fr/chrono_suivi_search#"
+		"url": "http://www.chronopost.fr/fr/chrono_suivi_search?listeNumerosLT="
 	},
 	"colisprive": {
 		"label": "Colis Privé",
